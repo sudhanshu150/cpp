@@ -25,10 +25,10 @@ Output:
 using namespace std;
 int main()
 {
-    int n;
+    long long n;
     cin>>n;
     cout<<n<<" ";
-    for(int i=0;i<n+10;i++)
+    while(true)
     {
         if(n==1)
             break;
